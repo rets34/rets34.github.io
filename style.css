@@ -1,0 +1,52 @@
+body {
+    background: black;
+    color: white;
+}
+/*buttons*/
+button {
+    margin-left: 15px;
+    font-size: 25px;
+    position: relative;
+    background-color: black;
+    color: blue;
+    border-color: blue;
+    border-style: solid;
+    border-radius: 20px;
+    cursor: pointer;
+    border-bottom: 5px solid;
+    transition: 
+        border-bottom 0.2s,
+        transform 0.2s;
+    transform: translateY(0px);
+}
+button:active {
+    border-bottom: 2px solid;
+    transform: translateY(2px);
+}
+.source {
+    background-color: grey;
+}
+/*images*/
+.githubimg {
+    height: 15px;
+}
+/*text*/
+h1 {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+/*divs*/
+.all {
+    width: 100%;
+}
+.top {
+    margin-top: 25px;
+    position: relative;
+}
+.header {
+    margin-bottom: 25px;
+    border: 1px solid red;
+    border-radius: 20px;
+    position: relative;
+}
