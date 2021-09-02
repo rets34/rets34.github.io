@@ -5,6 +5,7 @@
 
 body {
     background: var(--blackish);
+    color: white;
 }
 /*buttons*/
 button {
