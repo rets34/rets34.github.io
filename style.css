@@ -1,30 +1,34 @@
+:root {
+    --blackish: #181A18;
+    --blackish-hover: #373837;
+}
+
 body {
-    background: black;
-    color: white;
+    background: var(--blackish);
 }
 /*buttons*/
 button {
     margin-left: 15px;
     font-size: 25px;
     position: relative;
-    background-color: black;
+    background-color: var(--blackish);
     color: blue;
-    border-color: blue;
-    border-style: solid;
-    border-radius: 20px;
+    border: 2px solid blue;
+    border-radius: 8px;
     cursor: pointer;
     border-bottom: 5px solid;
     transition: 
         border-bottom 0.2s,
         transform 0.2s;
     transform: translateY(0px);
+    text-decoration: none;
+}
+button:hover {
+    background-color: var(--blackish-hover);
 }
 button:active {
     border-bottom: 2px solid;
     transform: translateY(2px);
-}
-.source {
-    background-color: grey;
 }
 /*images*/
 .githubimg {
@@ -36,17 +40,18 @@ h1 {
     margin-right: 20px;
     text-align: center;
 }
-/*divs*/
-.all {
-    width: 100%;
+article {
+    margin: 0% 10%;
+    margin-top: 1%;
 }
-.top {
-    margin-top: 25px;
-    position: relative;
+header {
+    margin: 0% 35%;
 }
-.header {
-    margin-bottom: 25px;
+article section,
+header section {
     border: 1px solid red;
-    border-radius: 20px;
-    position: relative;
+    border-radius: 8px;
+}
+* {
+    font-family: 'Oxanium', cursive;
 }
