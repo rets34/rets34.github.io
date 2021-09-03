@@ -40,13 +40,14 @@ h1 {
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
+    font-size: 28px;
 }
 article {
     margin: 0% 10%;
     margin-top: 1%;
 }
 header {
-    margin: 0% 30%;
+    margin: 0% 25%;
 }
 article section,
 header section {
