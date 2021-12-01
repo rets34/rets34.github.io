@@ -1,2 +1,2 @@
 # idk something something
-the code for my site
+some code for a site I made some time ago
