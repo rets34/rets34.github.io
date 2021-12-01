@@ -1,2 +1,2 @@
 # site-tryout
-this is a README
+the code for my site
