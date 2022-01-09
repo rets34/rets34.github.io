@@ -3,35 +3,47 @@
 <head>
     <meta charset="utf-8" />
     <meta name="author" content="lolpowerluke" />
-    <meta name="description" content="site for lolpowerluke's themes">
+    <meta name="description" content="site for lolpowerluke's themes" />
     <title>lolpowerluke's themes</title>
     <link href="style.css" rel="stylesheet">
     <script src="functions.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
+    <div class="header">
         <section>
             <h1>lolpowerluke's themes</h1>
         </section>
-    </header>
-    <article>
-        <section>
-            <h1>
-                Alan Walker Theme
-                <button onclick="window.open('https://github.com/lolpowerluke/bd-themes/tree/main/AlanWalkerTheme')">
-                    <div>
-                        <img src="assets/github.png" class="githubimg">
-                        <span>source</span>
-                    </div>
-                </button>
-                <button onclick="downloadAW()">download</button>
-                <button onclick="window.open('https://gibbu.github.io/ThemePreview/?file=https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/alanWalker.theme.css')" >preview</button>
-            </h1>
-        </section>
-    </article>
+    </div>
+    <div class="list-items">
+      <div class="AW themes">
+          <h1>
+              Alan Walker Theme
+              <button onclick="window.open('https://github.com/lolpowerluke/bd-themes/tree/main/AlanWalkerTheme')">
+                  <div>
+                      <img src="assets/github.png" class="githubimg">
+                      <span>source</span>
+                  </div>
+              </button>
+              <button onclick="downloadAlanWalkerTheme()">download</button>
+              <button onclick="window.open('https://gibbu.github.io/ThemePreview/?file=https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/alanWalker.theme.css')" >preview</button>
+          </h1>
+      </div>
+      <div class="smallDMchannelList themes">
+        <h1>
+          smallDMchannelList
+          <button onclick="window.open('https://github.com/lolpowerluke/smallDMchannelList')">
+            <div>
+              <img src="assets/github.png" class="githubimg">
+              <span>source</span>
+            </div>
+          </button>
+          <button onclick="downloadSmallDMchannelList()">download</button>
+        </h1>
+      </div>
+    </div>
 </body>
 </html>

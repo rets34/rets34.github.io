@@ -1,59 +1,61 @@
 :root {
-    --blackish: #181A18;
-    --blackish-hover: #373837;
+  --blackish: #000000ef;
+  --blackish-hover: #2c2c2c;
 }
 
 body {
-    background: var(--blackish);
-    color: white;
+  background: var(--blackish);
+  color: white;
 }
 /*buttons*/
 button {
-    margin-left: 15px;
-    font-size: 25px;
-    position: relative;
-    background-color: var(--blackish);
-    color: blue;
-    border: 2px solid blue;
-    border-radius: 8px;
-    cursor: pointer;
-    border-bottom: 5px solid;
-    transition: 
-        border-bottom 0.2s,
-        transform 0.2s;
-    transform: translateY(0px);
-    text-decoration: none;
+  margin-left: 15px;
+  font-size: 25px;
+  position: relative;
+  background-color: var(--blackish);
+  color: blue;
+  border: 2px solid blue;
+  border-radius: 8px;
+  cursor: pointer;
+  border-bottom: 5px solid;
+  transition: 
+    border-bottom 0.2s,
+    transform 0.2s;
+  transform: translateY(0px);
+  text-decoration: none;
 }
 button:hover {
-    background-color: var(--blackish-hover);
+  background-color: var(--blackish-hover);
 }
 button:active {
-    border-bottom: 2px solid;
-    transform: translateY(2px);
+  border-bottom: 2px solid;
+  transform: translateY(2px);
 }
 /*images*/
 .githubimg {
-    height: 15px;
+  height: 15px;
 }
 /*text*/
 h1 {
-    margin-left: 20px;
-    margin-right: 20px;
-    text-align: center;
-    font-size: 28px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  font-size: 28px;
 }
-article {
-    margin: 0% 10%;
-    margin-top: 1%;
+.list-items {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  justify-content: center;
 }
-header {
-    margin: 0% 25%;
+.header {
+  margin: 0 auto;
 }
-article section,
-header section {
-    border: 1px solid red;
-    border-radius: 8px;
+.list-items .themes {
+  border: 1px solid red;
+  border-radius: 8px;
+  margin: 0 auto;
 }
 * {
-    font-family: 'Oxanium', cursive;
+  font-family: 'Oxanium', cursive;
 }
