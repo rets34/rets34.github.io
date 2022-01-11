@@ -7,7 +7,7 @@ function downloadAlanWalkerTheme() {
   download();
 }
 function downloadSmallDMchannelList() {
-  name = "smallDMchannelList.css";
+  name = "smallDMchannelList.theme.css";
   url = 'https://lolpowerluke.github.io/smallDMchannelList/smallDMchannelList.css';
   download();
 }
