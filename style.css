@@ -9,7 +9,6 @@ body {
 }
 /*buttons*/
 button {
-  margin-left: 15px;
   font-size: 25px;
   position: relative;
   background-color: var(--blackish);
@@ -37,10 +36,13 @@ button:active {
 }
 /*text*/
 h1 {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 20px;
   text-align: center;
   font-size: 28px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 .list-items {
   display: flex;
