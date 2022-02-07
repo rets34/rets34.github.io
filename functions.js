@@ -11,6 +11,11 @@ function downloadSmallDMchannelList() {
   url = 'https://lolpowerluke.github.io/smallDMchannelList/smallDMchannelList.css';
   download();
 }
+function downloadSteamTheme() {
+  name = "Steam.theme.css"
+  url = 'https://lolpowerluke.github.io/bd-themes/steamTheme/Steam.theme.css';
+  download();
+}
 function download() {
   fetch(url)
   .then(resp => resp.blob())
