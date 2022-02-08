@@ -31,12 +31,12 @@ button:active {
   transform: translateY(2px);
 }
 /*images*/
-.githubimg {
+img {
   height: 15px;
 }
 /*text*/
 h1 {
-  margin: 20px;
+  margin: 0;
   text-align: center;
   font-size: 28px;
   display: flex;
@@ -50,10 +50,34 @@ h1 {
   row-gap: 20px;
   justify-content: center;
 }
+.themes {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr;
+  flex-wrap: wrap;
+  padding: 20px;
+  column-gap: 20px;
+}
 .header {
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
+  margin: 20px auto;
+  display: grid;
+  width: fit-content;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr;
+  column-gap: 10px;
+}
+@media (max-width: 1000px) {
+  h1 {
+    margin: 0 auto;
+  }
+  .themes {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+  }
+  .header {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+  }
 }
 .list-items .themes {
   border: 1px solid red;
