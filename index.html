@@ -6,53 +6,48 @@
     <meta name="description" content="site for lolpowerluke's themes" />
     <title>lolpowerluke's themes</title>
     <link href="style.css" rel="stylesheet">
-    <script src="functions.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200&display=swap" rel="stylesheet">
 </head>
 
 <body>
+  <div class="container">
     <div class="header">
-        <div class="title">
-            <h1>lolpowerluke's themes</h1>
-        </div>
-        <button onclick="window.open('https://discord.gg/bUhffzEDdX')">
-          <img src="assets/discord.png">
-          <span>my support server</span>
-        </button>
-    </div>
-    <div class="list-items">
-      <div class="AW themes">
-          <h1>
-            Alan Walker Theme
-          </h1>
-          <div class="theme-buttons">
-            <button onclick="window.open('https://github.com/lolpowerluke/bd-themes/tree/main/AlanWalkerTheme')">
-              <div>
-                  <img src="assets/github.png" class="githubimg">
-                  <span>source</span>
-              </div>
-            </button>
-            <button onclick="downloadAlanWalkerTheme()">download</button>
-            <button onclick="window.open('https://gibbu.github.io/ThemePreview/?file=https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/alanWalker.theme.css')" >preview</button>
-          </div>
-      </div>
-      <div class="smallDMchannelList themes">
+      <div class="home">
         <h1>
-          smallDMchannelList
+          <a href="index.html">Home</a>
         </h1>
-        <div class="theme-buttons">
-          <button onclick="window.open('https://github.com/lolpowerluke/smallDMchannelList')">
-            <div>
-              <img src="assets/github.png" class="githubimg">
-              <span>source</span>
-            </div>
-          </button>
-          <button onclick="downloadSmallDMchannelList()">download</button>
-          <button onclick="window.open('https://gibbu.github.io/ThemePreview/?file=https://lolpowerluke.github.io/smallDMchannelList/smallDMchannelList.css')" >preview</button>
+      </div>
+      <div class="page-title">
+        <h1>Homepage</h1>
+      </div>
+      <div class="nav wrap-collapsible">
+        <input id="header-collapsible" class="toggle" type="checkbox">
+        <label for="header-collapsible" class="lbl-toggle">
+          <div class="l1 line"></div>
+          <div class="l2 line"></div>
+          <div class="l3 line"></div>
+        </label>
+        <div class="nav-buttons collapsible-content">
+          <a href="blender-stuff/blender.html">
+            <span>Blender Projects</span>
+          </a>
+          <a href="bd-stuff/bd.html">
+            <span>Betterdsicord themes</span>
+          </a>
+          <a href="https://discord.gg/bUhffzEDdX" target="_blank">
+            <img src="assets/discord.png">
+            <span>my support server (bd themes)</span>
+          </a>
         </div>
       </div>
     </div>
+    <div class="no-text-transform">
+      <p>Hi! I'm lolpowerluke, and this is my website.</p>
+      <p>I enjoy programming in html, css and js.</p>
+      <p>I also spend my time modeling things in <a href="https://www.blender.org">blender</a>.</p>
+      <p>Some of the things I've modeled are character models for Genshin Impact modding and a house with a subway station for a school project. you can preview them <a href="blender-stuff/blender.html">here</a>.</p>
+      <p>In my free time I make BetterDiscord themes, you can find them <a href="bd-stuff/bd.html">here</a>.</p>
+    </div>
+  </div>
 </body>
 </html>
+  
