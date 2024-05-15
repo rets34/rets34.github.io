@@ -172,7 +172,10 @@ input[type="checkbox"] {
 }
 .toggle:checked + .lbl-toggle + .collapsible-content {
   max-height: 350px;
-  padding: 15px;
+  transform: translateY(0px);
+  transition:
+    max-height 0.25s ease-out,
+    transform 0.25s ease-out;
 }
 .list-items .item .item-buttons.collapsible-content > button {
   height: 0px;
@@ -212,12 +215,15 @@ input[type="checkbox"] {
   flex-direction: column;
   align-content: center;
   gap: 15px;
+  padding: 15px;
   background-color: var(--blackish);
   width: calc(100vw - 30px);
   height: calc(100vh - 75px);
   box-sizing: border-box;
+  transform: translateY(-150px);
   transition:
-    max-height 0.25s ease-out;
+    max-height 0.25s ease-out,
+    transform 0.5s ease-out;
 }
 .line {
   position: absolute;
