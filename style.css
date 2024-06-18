@@ -209,6 +209,7 @@ input[type="checkbox"] {
 }
 .nav-buttons.collapsible-content {
   position: absolute;
+  z-index: 1;
   top: 40px;
   right: 0;
   display: flex;
