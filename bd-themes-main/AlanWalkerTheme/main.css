@@ -1,8 +1,62 @@
 /*Imports*/
   /*User Settings*/
-
+    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/userSetting.css');
+    @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css'); /*Thanks to DevilBro for letting me use this*/
   /*Embeds*/
+    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/old/embeds.css');
+  /*Seperators*/
+    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/old/separators.css');
+  /*Buttons*/
+    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/old/buttons.css');
+  /*Scrollbar*/
+    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/scrollbar.css');
+  /*Plugin compatibility*/
+    /*@import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/plugins.css');
+    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/old/plugins.css');
+  /*Server bar*/
+    /*@import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/old/serverList.css');
+  /*Message bar*/
+    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/old/ConsistantChatbar.css'); /*Thanks to dablulite for creating this*/
+  /*Trivia*/
+  @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/old/trivia.css');
+  @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/old/trivia/friendListPlayingCards.css');
+  @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/trivia/streamerMode.css');
+  /*@import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/trivia/dmSideUserPanel.css');
+  @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/trivia/guildUserButtons.css');
+  @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/trivia/memberList.css');
+  /*Other Stuff*/
+    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/version.css');
+    /*@import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/serverChannels.css');
+    /*@import url('https://lolpowerluke.github.io/smallDMchannelList/smallDMchannelList.css');*/
+    /*@import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/friendList.css');*/
+    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/old/statusPicker.css');
+    /*Work in Progress*/
+    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/WIP.css');
+  /*Snippets*/
+    @import url('https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css'); /*Thanks to Disease for creating this*/
+    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/old/audioFileRedesign.css'); /*Thanks to davart154 for creating this*/
 
 
-
-
+/*Imports*/
+  /*Embeds*/
+    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/embeds.css');
+  /*Seperators*/
+    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/separators.css');
+  /*Buttons*/
+    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/buttons.css');
+  /*Plugin compatibility*/
+    /*@import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/plugins.css');
+  /*Server bar*/
+    /*@import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/serverList.css');
+  /*Message bar*/
+    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/ConsistantChatbar.css'); /*Thanks to dablulite for creating this*/
+  /*Trivia*/
+  @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/trivia.css');
+  @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/trivia/friendListPlayingCards.css');
+  @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/trivia/background.css');
+  /*@import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/trivia/panels.css');
+  @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/trivia/oldChatbar.css'); /* Thanks to davart154 for creating this */
+  /*Other Stuff*/
+    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/statusPicker.css');
+  /*Snippets*/
+    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/audioFileRedesign.css'); /*Thanks to davart154 for creating this*/
