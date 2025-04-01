@@ -213,10 +213,10 @@
   --call-button-red: rgba(255, 0, 0, 0.5);
 
   /*popouts*/
-  --popout-header: black;
-  --popout-body: rgba(0, 0, 0);
-  --popout-footer: black;
-  --popout-scroller: rgb(41, 41, 41);
+  /*--popout-header: black;
+  /*--popout-body: rgba(0, 0, 0);
+  /*--popout-footer: black;
+  /*--popout-scroller: rgb(41, 41, 41);
 
   /*settings*/
   --back-bd-addon-cards: black;
@@ -237,9 +237,9 @@
   --back-color-forum-posts-hover: rgba(34, 34, 34, 0.575);
 
   /*user popouts*/
-  --big-user-popout: black;
-  --big-user-popout-body: black;
-  --big-user-popout-topsection: black;
+  /*--big-user-popout: black;
+  /*--big-user-popout-body: black;
+  /*--big-user-popout-topsection: black;
   --big-user-popout-avatar: black;
   --user-popout: black;
   --user-popout-alt: rgba(0, 0, 255, 0.24);
@@ -301,7 +301,7 @@
   --back-emoji-etc-picker: rgba(0, 0, 0, 0.5);
   
   /*popouts*/
-  --popout-header: rgba(0, 0, 0, 0.5);
+  /*--popout-header: rgba(0, 0, 0, 0.5);
   --popout-body: rgba(0, 0, 0, 0.5);
   --popout-footer: rgba(0, 0, 0, 0.5);
   --popout-scroller: rgb(0, 0, 0);
@@ -421,7 +421,7 @@
   --call-button-red: rgba(255, 0, 0, 0.5);
 
   /*popouts*/
-  --popout-header: black;
+ /* --popout-header: black;
   --popout-body: rgba(0, 0, 0);
   --popout-footer: black;
   --popout-scroller: rgb(41, 41, 41);
@@ -445,7 +445,7 @@
   --back-color-forum-posts-hover: rgba(34, 34, 34, 0.575);
 
   /*user popouts*/
-  --big-user-popout: white;
+  /*--big-user-popout: white;
   --big-user-popout-body: white;
   --big-user-popout-topsection: white;
   --big-user-popout-avatar: white;
@@ -506,7 +506,7 @@
   --back-emoji-etc-picker: rgba(255, 255, 255, 0.5);
   
   /*popouts*/
-  --popout-header: rgba(255, 255, 255, 0.5);
+  /*--popout-header: rgba(255, 255, 255, 0.5);
   --popout-body: rgba(255, 255, 255, 0.5);
   --popout-footer: rgba(255, 255, 255, 0.5);
   --popout-scroller: rgb(255, 255, 255);
