@@ -11,10 +11,10 @@
   /*Scrollbar*/
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/scrollbar.css');
   /*Plugin compatibility*/
-    /*@import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/plugins.css');
+    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/plugins.css');
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/old/plugins.css');
   /*Server bar*/
-    /*@import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/old/serverList.css');
+    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/old/serverList.css');
   /*Message bar*/
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/old/ConsistantChatbar.css'); /*Thanks to dablulite for creating this*/
   /*Trivia*/
@@ -45,7 +45,7 @@
   /*Buttons*/
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/buttons.css');
   /*Plugin compatibility*/
-    /*@import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/plugins.css');
+    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/plugins.css');
   /*Server bar*/
     /*@import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/serverList.css');
   /*Message bar*/
@@ -54,7 +54,7 @@
   @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/trivia.css');
   @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/trivia/friendListPlayingCards.css');
   @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/trivia/background.css');
-  /*@import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/trivia/panels.css');
+  @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/trivia/panels.css');
   @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/trivia/oldChatbar.css'); /* Thanks to davart154 for creating this */
   /*Other Stuff*/
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/statusPicker.css');
