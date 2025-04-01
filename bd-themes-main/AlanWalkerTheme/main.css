@@ -1,6 +1,6 @@
 /*Imports*/
   /*User Settings*/
-    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/userSetting.css');
+    /*@import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/userSetting.css');
     @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css'); /*Thanks to DevilBro for letting me use this*/
   /*Embeds*/
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/old/embeds.css');
@@ -35,7 +35,6 @@
   /*Snippets*/
     @import url('https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css'); /*Thanks to Disease for creating this*/
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/old/audioFileRedesign.css'); /*Thanks to davart154 for creating this*/
-
 
 
 /*Imports*/
