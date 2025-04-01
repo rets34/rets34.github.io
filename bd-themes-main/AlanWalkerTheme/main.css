@@ -48,7 +48,7 @@
   /*Plugin compatibility*/
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/plugins.css');
   /*Server bar*/
-    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/serverList.css');
+    /*@import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/serverList.css');
   /*Message bar*/
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/ConsistantChatbar.css'); /*Thanks to dablulite for creating this*/
   /*Trivia*/
