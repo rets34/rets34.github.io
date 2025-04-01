@@ -1,0 +1,50 @@
+/*Userbuttons In Side Panel*/
+@media (min-width: 801px) {
+  .panels_c48ade .container__37e49 .buttons__37e49 {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 72px;
+    z-index: 1;
+    padding: 20px 0 10px 0;
+    flex-direction: column;
+    background: linear-gradient(transparent, var(--back-user-buttons) 15%);
+    pointer-events: none;
+    
+    .button__67645 {
+      margin: var(--user-buttons-spacing) auto 0 auto;
+      pointer-events: auto;
+      border-radius: 50%;
+    }
+  }
+}
+@media (max-width: 800px) {
+  .panels_c48ade .container__37e49 .buttons__37e49 {
+    column-gap: 2px;
+
+    button {
+      margin: 0;
+    }
+    & > * {
+      border-radius: var(--border-radius-s);
+      background: var(--back-user-buttons-700);
+      overflow: hidden;
+
+      &:hover {
+        background: var(--back-user-buttons-hover-700);
+      }
+      * {
+        border-radius: 0;
+      }
+    }
+    & > *:nth-last-child(2) {
+      border-radius: var(--border-radius-s) var(--border-radius-m) var(--border-radius-s) var(--border-radius-s);
+    }
+  }
+}
+.content-2a4AW9 {
+  height: 850px !important;
+}
+.container__37e49 {
+  container-type: unset;
+}
